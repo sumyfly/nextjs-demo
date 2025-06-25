@@ -129,10 +129,6 @@
     "dangerouslyAllowSVG": false
   },
   
-  "edge": {
-    "regions": ["all"]
-  },
-  
   "isr": {
     "expiration": 60,
     "allowQuery": ["utm_source", "utm_medium", "utm_campaign"]
