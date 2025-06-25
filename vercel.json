@@ -29,6 +29,10 @@
     {
       "src": "/sitemap.xml",
       "dest": "/api/sitemap"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "app"
     }
   ]
 }
