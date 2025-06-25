@@ -30,20 +30,5 @@
       "src": "/sitemap.xml",
       "dest": "/api/sitemap"
     }
-  ],
-
-  "rewrites": [
-    {
-      "source": "/blog/:path*",
-      "destination": "/blog/:path*"
-    }
-  ],
-
-  "redirects": [
-    {
-      "source": "/old-blog/:path*",
-      "destination": "/blog/:path*",
-      "permanent": true
-    }
   ]
 }
