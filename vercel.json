@@ -127,26 +127,5 @@
     "formats": ["image/webp"],
     "minimumCacheTTL": 86400,
     "dangerouslyAllowSVG": false
-  },
-  
-  "isr": {
-    "expiration": 60,
-    "allowQuery": ["utm_source", "utm_medium", "utm_campaign"]
-  },
-  
-  "outputFileTracing": true,
-  
-  "public": true,
-  
-  "source": "**",
-  
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
-  
-  "nodeVersion": "18.x",
-  
-  "supportsResponseStreaming": true,
-  
-  "middleware": {
-    "matcher": ["/api/:path*", "/admin/:path*"]
   }
 } 
